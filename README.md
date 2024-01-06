@@ -26,7 +26,9 @@ C_HEAP
 OTHER
 
 ALL(CAPABLE OF FINDING AND WRITTING IN ALL RANGES WITH "rw" PERMISSION)
+
 XA
+
 XS
 
 **RELEASE**
@@ -39,13 +41,26 @@ FREEZING VALUES(NOW YOU CAN USE FREEZE TO EDIT AND FREEZE A VALUE.IT WILL EDIT T
 Use freezing at your own risk,It may lead to CPU heat up.
 
 **CALLS**
-TYPE :- DWORD | QWORD | FLOAT | WORD
+TYPE :- 
+
+DWORD 
+
+QWORD 
+
+FLOAT 
+
+WORD
 
 1- MemorySearch("Value",TYPE,RANGE); -> Finds Main Value
+
 2- MemoryOffset("Value",TYPE,OFFSET(IN DECIMAL)); -> Finds Value Near Main Value With Offset
+
 3- MemoryEdit("Value",TYPE,OFFSET(IN DECIMAL)); -> Edit The Desired Value
+
 4- MemoryFreeze("Value",TYPE,OFFSET(IN DECIMAL)); -> Freeze Edit The Desired Value
+
 5- GetResultsCount(); -> Returns the total number of Result Found
+
 6- MemoryClear(); -> Clears The Memory(MUST USE TO PREVENT CRASH)
 
 **IMPLEMENTATION IN GAME**
